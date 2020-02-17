@@ -1,5 +1,4 @@
-[![official JetBrains project](http://jb.gg/badges/official-flat-square.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
+[Cypress](http://cypress.io/) internal test reporter for enabling Cypress support inside WebStorm and other IntelliJ IDEs with NodeJS support
 
-[Mocha](http://mochajs.org/) reporter for WebStorm and other IntelliJ IDEs (IntelliJ IDEA, PhpStorm, RubyMine, PyCharm, etc).
+It was forked from the [mocha-intellij](https://github.com/JetBrains/mocha-intellij) reporter
 
-No need to install it manually, it's bundled with [NodeJS](https://plugins.jetbrains.com/plugin/6098) plugin.

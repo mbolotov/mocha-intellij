@@ -1,13 +1,13 @@
 {
-  "name": "mocha-intellij",
+  "name": "cypress-intellij-reporter",
   "version": "0.0.1",
-  "description": "Mocha reporter for WebStorm and other IntelliJ IDEs.",
+  "description": "Cypress internal reporter for WebStorm and other IntelliJ IDEs.",
   "repository": {
     "type": "git",
-    "url": "git@github.com:JetBrains/mocha-intellij.git"
+    "url": "git@github.com:mbolotov/mocha-intellij.git"
   },
   "keywords": [
-    "mocha reporter",
+    "cypress reporter",
     "WebStorm",
     "IntelliJ"
   ],
@@ -15,9 +15,15 @@
     {
       "name": "Sergey Simonchik",
       "email": "sergey.simonchik@jetbrains.com"
+    },
+    {
+      "name": "Mikhail Bolotov",
+      "email": "mikhail.bolotov@gmail.com"
     }
   ],
-  "dependencies": {},
+  "dependencies": {
+    "mocha": "latest"
+  },
   "licenses": [
     {
       "type": "Apache 2.0",
